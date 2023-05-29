@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 64px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: forestgreen;
+    background-color:lavenderblush;
+    text-align-last: center;
+    height: 20vh;
+}
+
+
+.button{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: lavender;
+    background-color: firebrick;
+    display: flexbox;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    
+}
+
+.main{
+    text-align: center;
+}
+
+.button:hover{
+    color: purple;
+    background-color: plum;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.circle{
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color:fuchsia;
+
+}
+
+.square{
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+
+
+}
+
+.traingle{
+    margin-top: 50px;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent; 
+    border-bottom: 200px solid lawngreen;
+}
+
+.shapecontainer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
